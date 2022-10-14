@@ -183,7 +183,18 @@ ul {
     padding-bottom: 200px;
     margin: auto;
 
-    background-color: var(--dark-bg-color);
+    background-image: 
+    linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-color: #C4C4C4;
     text-align: center;
 }
 
@@ -235,6 +246,18 @@ ul {
     flex-basis: calc((100% - 90px) / 4);
 }
 
+.feature-list .icon{
+    display: block;
+    width: 270px;
+    height: 120px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
+    background: var(--secondary-bg-color);
+}
+
+
 .feature-list .title {
     margin-bottom: 10px;
 
@@ -283,8 +306,7 @@ ul {
 }
 
 .team-list .label {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 32px;
 
     box-shadow:
         0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -303,11 +325,32 @@ ul {
 }
 
 .team-list .text {
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
 
+.social-list{
+    display: flex;
+    gap: 10px;
+}
+
+.social-list .social-item{
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+
+    outline: 1px solid tomato;
+}
+
+
+.social-list .icon{
+    display: block;
+    width: 44px;
+    height: 44px;
+}
 
 
 /* Styles for Footer */
