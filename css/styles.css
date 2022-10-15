@@ -183,13 +183,11 @@ ul {
     padding-bottom: 200px;
     margin: auto;
 
-    background-image: 
-    linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero-img.jpg");
+    background-image:
+        linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../images/hero-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -242,11 +240,11 @@ ul {
     gap: 30px;
 }
 
-.feature-list .item{
+.feature-list .item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.feature-list .icon{
+.feature-list .icon {
     display: block;
     width: 270px;
     height: 120px;
@@ -331,12 +329,12 @@ ul {
     text-align: center;
 }
 
-.social-list{
+.social-list {
     display: flex;
     gap: 10px;
 }
 
-.social-list .social-item{
+.social-list .social-item {
     width: 44px;
     height: 44px;
     border: none;
@@ -346,7 +344,7 @@ ul {
 }
 
 
-.social-list .icon{
+.social-list .icon {
     display: block;
     width: 44px;
     height: 44px;
@@ -359,6 +357,11 @@ ul {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--dark-bg-color);
+}
+
+.footer-container {
+    display: flex;
+    gap: 93px;
 }
 
 .page-footer .logo {
@@ -391,7 +394,16 @@ ul {
     color: var(--accent-color);
 }
 
+.social-contacts .text {
+    margin-top: 12px;
+    margin-bottom: 20px;
 
+    color: var(--primary-white-color);
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
 
 /* ========================================== */
 
