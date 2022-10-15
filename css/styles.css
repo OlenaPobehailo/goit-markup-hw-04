@@ -175,7 +175,7 @@ ul {
 }
 
 
-/* Styles for Solutions section*/
+/*  Solutions section*/
 
 .solutions {
     max-width: 1600px;
@@ -270,7 +270,7 @@ ul {
 }
 
 
-/* Styles for work section */
+/* Work section */
 
 .work-list {
     display: flex;
@@ -281,7 +281,7 @@ ul {
 }
 
 
-/* Styles for Team section */
+/* Team section */
 
 .team-section {
     background-color: var(--secondary-bg-color);
@@ -335,8 +335,8 @@ ul {
 }
 
 .social-list .social-item {
-    width: 44px;
-    height: 44px;
+    /* width: 44px;
+    height: 44px; */
     border: none;
     border-radius: 50%;
 
@@ -350,8 +350,29 @@ ul {
     height: 44px;
 }
 
+/* Client section */
 
-/* Styles for Footer */
+.client-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.client-list .icon {
+    display: block;
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    background-color: var(--primary-white-color);
+}
+
+
+
+
+/* Footer */
 
 .page-footer {
     padding-top: 60px;
