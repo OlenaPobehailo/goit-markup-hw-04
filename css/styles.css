@@ -450,6 +450,10 @@ ul {
     text-transform: uppercase;
 }
 
+.social-item .icon{
+    fill: var(--primary-white-color)
+}
+
 .social-contacts .social-item {
     background: rgba(255, 255, 255, 0.1);
 }
@@ -471,7 +475,6 @@ ul {
     justify-content: center;
     margin-bottom: 50px;
 }
-
 
 .filter-list .item:not(:last-child) {
     margin-right: 8px;
