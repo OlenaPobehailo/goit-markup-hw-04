@@ -73,6 +73,7 @@ ul {
 }
 
 
+
 /* Styles for Header */
 
 .page-header {
@@ -113,10 +114,6 @@ ul {
     align-items: center;
     gap: 50px;
 }
-/* 
-.site-nav .item+.item {
-    margin-left: 50px;
-} */
 
 .site-nav .link {
     padding-top: 32px;
@@ -248,6 +245,8 @@ ul {
     background: var(--dark-accent-color);
 }
 
+
+
 /* Styles for feature list */
 
 .feature-list {
@@ -269,7 +268,6 @@ ul {
 
     background: var(--secondary-bg-color);
 }
-
 
 .feature-list .title {
     margin-bottom: 10px;
@@ -294,6 +292,7 @@ ul {
 .work-list .item:not(:last-child) {
     margin-right: 30px;
 }
+
 
 
 /* Team section */
@@ -360,7 +359,6 @@ ul {
     fill: var(--social-icon-color);
 }
 
-
 .social-item:hover .icon,
 .social-item .link:focus .icon {
     fill: var(--primary-white-color);
@@ -380,14 +378,6 @@ ul {
     gap: 30px;
 }
 
-
-/* 
-.client-list .link{
-    width: 170px;
-    height: 92px;
-    padding: 16px 32px;
-}
- */
 .client-list .icon {
     width: 170px;
     height: 92px;
@@ -403,6 +393,7 @@ ul {
     fill: var(--accent-color);
     border-color: var(--accent-color);
 }
+
 
 
 /* Footer */
@@ -466,6 +457,10 @@ ul {
 .social-contacts .social-item:hover {
     background-color: var(--accent-color);
 }
+
+
+
+
 
 /* ================================================== */
 
