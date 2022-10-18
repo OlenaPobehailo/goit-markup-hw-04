@@ -132,6 +132,7 @@ ul {
 
 .header-contacts {
     display: flex;
+    align-items: center;
     margin-left: auto;
     gap: 30px;
 }
@@ -258,15 +259,19 @@ ul {
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.feature-list .icon {
-    display: block;
-    width: 100%;
+.feature-list .icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 270px;
     height: 120px;
-    padding-top: 25px;
-    padding-bottom: 25px;
     margin-bottom: 30px;
 
     background: var(--secondary-bg-color);
+}
+
+.feature-list .icon {
+    display: block;
 }
 
 .feature-list .title {
@@ -379,6 +384,7 @@ ul {
 }
 
 .client-list .icon {
+    display: block;
     width: 170px;
     height: 92px;
     padding: 16px 32px;
